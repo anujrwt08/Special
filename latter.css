@@ -8,3 +8,19 @@ body {
     font-family: "Steph", sans-serif;
 
 }
+/* Desktop */
+@media (min-width: 768px) {
+    body {
+        flex-direction: row; /* Makes content appear in a row on larger screens */
+        margin: 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    body {
+        margin: 10px;
+        padding: 5px;
+    }
+}
+
